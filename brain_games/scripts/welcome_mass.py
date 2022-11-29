@@ -1,6 +1,7 @@
 #!/Users/chibis/code/Projects/Project 1/python-project-49/.venv/bin python3
 
-
+import os, sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '../', '../'))
 from brain_games.cli import welcome_user
 
 
