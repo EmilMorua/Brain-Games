@@ -1,8 +1,8 @@
 install: # Package initialization
 	poetry install
 
-brain-games: # Start games
-	poetry run brain-games
+welcome_mass:
+	poetry run welcome-mass
 
 build: #Distribution assembly
 	poetry build
@@ -23,4 +23,10 @@ brain-calc:
 	poetry run brain-calc
 
 brain-gcd:
-	poetry run brain_gcd
+	poetry run brain-gcd
+
+brain-progression:
+	poetry run brain-progression
+
+brain-prime:
+	poetry run brain-prime
