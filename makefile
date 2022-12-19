@@ -30,3 +30,6 @@ brain-progression:
 
 brain-prime:
 	poetry run brain-prime
+
+brain-games:
+	poetry run brain-games

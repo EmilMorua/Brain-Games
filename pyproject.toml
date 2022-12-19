@@ -9,11 +9,11 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.10.6"
+python = "3.10.6"
 prompt = "^0.4.1"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.welcome_mass:main"
+brain-games = "brain_games.scripts.start:main"
 brain-even = "brain_games.games.brain_even:main"
 brain-calc = "brain_games.games.brain_calc:main"
 brain-gcd = "brain_games.games.brain_gcd:main"
