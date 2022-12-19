@@ -1,5 +1,4 @@
 import random
-from brain_games.scripts.games_script import start_game
 
 
 def get_num():
