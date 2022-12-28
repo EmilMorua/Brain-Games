@@ -26,4 +26,5 @@ def start():
         start_game(get_progression)
 
 
-start()
+if __name__ == '__main__':
+    start()
