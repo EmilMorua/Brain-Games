@@ -3,4 +3,4 @@ from brain_games.games.brain_calc import start_calc
 
 
 if __name__ == '__main__':
-    start_game(start_calc())
+    start_game(start_calc)
