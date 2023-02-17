@@ -1,6 +1,10 @@
 import random
 
 
+MIN = 0
+MAX = 101
+
+
 def is_prime(num):
     if num < 3:
         return 'no'
@@ -10,10 +14,7 @@ def is_prime(num):
         return 'yes'
 
 
-MIN = 0
-MAX = 101
-
-def start_prime(num):
+def start_prime():
     '''Returns 2 values - a random number and whether it is prime'''
 
     num = random.randint(MIN, MAX)

@@ -1,19 +1,20 @@
 import random
 
 
-def get_progression_with_a_pass(progression, missing_index):
-    missing_number = progression.pop(missing_index)
-    progression.insert(missing_index, '..')
-    progression = ' '.join(str(v) for v in progression)
-    return (progression, missing_number)
-
-
 FIRST_NUM_MIN = 1
 FIRST_NUM_MAX = 21
 STEP_MIN = 1
 STEP_MAX = 6
 MISSING_INDEX_MIN = 0
 MISSING_INDEX_MAX = 9
+
+
+def get_progression_with_a_pass(progression, missing_index):
+    missing_number = progression.pop(missing_index)
+    progression.insert(missing_index, '..')
+    progression = ' '.join(str(v) for v in progression)
+    return (progression, missing_number)
+
 
 def start_progression() -> list:
     '''Returns 2 values - sequence of 10 numbers with one gap,
