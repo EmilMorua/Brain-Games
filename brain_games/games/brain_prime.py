@@ -10,7 +10,12 @@ def is_prime(num):
         return 'yes'
 
 
-def get_num(num = random.randint(1, 101)):
+MIN = 0
+MAX = 101
+
+def start_prime(num):
     '''Returns 2 values - a random number and whether it is prime'''
+
+    num = random.randint(MIN, MAX)
     answer = is_prime(num)
-    return num, answer
+    return (num, answer)
