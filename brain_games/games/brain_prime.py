@@ -5,7 +5,9 @@ MIN = 0
 MAX = 101
 
 
-def is_prime(num):
+def is_prime(num: int) -> str:
+    """Accepts a number and returns whether it is a prime number"""
+
     if num < 3:
         return 'no'
     for divisor in range(2, num - 1):
@@ -14,8 +16,8 @@ def is_prime(num):
         return 'yes'
 
 
-def start_prime():
-    '''Returns 2 values - a random number and whether it is prime'''
+def start_prime() -> tuple:
+    """Returns 2 values - a random number and whether it is a prime number"""
 
     num = random.randint(MIN, MAX)
     answer = is_prime(num)

@@ -8,14 +8,11 @@ MAX = 101
 def get_sums(num1: int, num2: int, operator: str) -> int:
     """Accepts 2 numbers, an operator to make a mathematical example, returns the answer to this expression"""
 
-    num1 = random.randint(MIN, MAX)
-    num2 = random.randint(MIN, MAX)
-    random_operator = random.randint(1, 3)
-    if random_operator == '+':
+    if operator == '+':
         return num1 + num2
-    elif random_operator == '-':
+    elif operator == '-':
         return num1 - num2
-    elif random_operator == '*':
+    elif operator == '*':
         return num1 * num2
 
 
