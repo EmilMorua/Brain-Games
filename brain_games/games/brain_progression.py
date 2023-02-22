@@ -13,7 +13,7 @@ def get_progression_with_a_pass(progression, missing_index):
     missing_number = progression.pop(missing_index)
     progression.insert(missing_index, '..')
     progression = ' '.join(str(v) for v in progression)
-    return (progression, missing_number)
+    return progression, missing_number
 
 
 def start_progression() -> list:

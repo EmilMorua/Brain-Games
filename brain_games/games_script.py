@@ -8,14 +8,14 @@ def start_game(game, max_point=3) -> None:
     Plays the game and ends the game'''
 
     brain_games.scripts.welcome_mass.main()
-    count_correct_answ = 0
-    while (count_correct_answ < max_point):
-        (question, answer) = game()
+    count_correct_answer = 0
+    while count_correct_answer < max_point:
+        question, answer = game()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
         if user_answer == str(answer):
             print('Correct!')
-            count_correct_answ += 1
+            count_correct_answer += 1
             continue
         else:
             print(f"'{user_answer}' is wrong answer ;(."

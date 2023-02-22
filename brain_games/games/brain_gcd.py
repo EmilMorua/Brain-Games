@@ -17,4 +17,4 @@ def start_gcd():
     num1 = random.randint(MIN, MAX)
     num2 = random.randint(MIN, MAX)
     divisor = get_divisor(num1, num2)
-    return (f'{num1} {num2}', divisor)
+    return f'{num1} {num2}', divisor

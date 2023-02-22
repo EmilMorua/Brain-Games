@@ -1,4 +1,4 @@
-from brain_games.scripts.games_script import start_game
+from brain_games.games_script import start_game
 from brain_games.games.brain_prime import start_prime
 
 

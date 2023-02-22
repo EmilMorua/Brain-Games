@@ -19,4 +19,4 @@ def start_prime():
 
     num = random.randint(MIN, MAX)
     answer = is_prime(num)
-    return (num, answer)
+    return num, answer

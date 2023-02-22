@@ -8,8 +8,8 @@ MAX = 101
 def is_even():
     num = random.randint(MIN, MAX)
     if num % 2 == 0:
-        return (num, 'yes')
-    return (num, 'no')
+        return num, 'yes'
+    return num, 'no'
 
 
 def start_even():
