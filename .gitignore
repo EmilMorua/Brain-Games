@@ -1,1 +1,5 @@
 .venv/
+.vscode/
+.idea/
+dist/
+pycache/
