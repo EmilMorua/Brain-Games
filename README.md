@@ -35,10 +35,16 @@ BrainGames is a series of five console logic games.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+Click on the name of the game to see a demonstration of how it works
+
 [brain-even](https://asciinema.org/a/5MOUZh6GwmUCbYrXvlqLRdflA)
+
 [brain-calc](https://asciinema.org/a/VeBcVE8sAYJAjatwcPxynCy12)
+
 [brain-gcd](https://asciinema.org/a/LJScsznpA6bQyveCHJ6pRsgQh)
+
 [brain-progression](https://asciinema.org/a/MkMA5dmvQRLv2kIseW0n22BoW)
+
 [brain-prime](https://asciinema.org/a/Ub1DFnxBwFv50TMDU6vlfUITE)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
