@@ -3,11 +3,12 @@ import brain_games.cli
 import brain_games.scripts.welcome_mass
 
 
-def start_game(game, max_point=3) -> None:
+def start_game(game, RULES, max_point=3) -> None:
     '''Accepts a function from the selected game module.
     Plays the game and ends the game'''
 
     brain_games.scripts.welcome_mass.main()
+    print(RULES)
     count_correct_answer = 0
     while count_correct_answer < max_point:
         question, answer = game()

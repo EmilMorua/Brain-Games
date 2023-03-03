@@ -7,6 +7,7 @@ STEP_MIN = 1
 STEP_MAX = 6
 MISSING_INDEX_MIN = 0
 MISSING_INDEX_MAX = 9
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def get_progression_with_a_pass(progression: list, missing_index: int) -> tuple:

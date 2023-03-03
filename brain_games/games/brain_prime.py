@@ -3,6 +3,7 @@ import random
 
 MIN = 0
 MAX = 101
+RULES = 'What number is missing in the progression?'
 
 
 def is_prime(num: int) -> str:

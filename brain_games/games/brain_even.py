@@ -3,6 +3,7 @@ import random
 
 MIN = 0
 MAX = 101
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(num: int) -> bool:

@@ -3,6 +3,7 @@ import random
 
 MIN = 0
 MAX = 101
+RULES = 'What is the result of the expression?'
 
 
 def get_sums(num1: int, num2: int, operator: str) -> int:

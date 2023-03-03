@@ -3,6 +3,7 @@ import random
 
 MIN = 0
 MAX = 101
+RULES = 'Find the greatest common divisor of given numbers.'
 
 
 def get_divisor(num1: int, num2: int) -> int:
