@@ -1,13 +1,18 @@
 import prompt
-import brain_games.cli
-import brain_games.scripts.welcome_mass
+
+
+def welcome_user():
+    print('Welcome to the Brain Games!')
+    global name
+    name = prompt.string('May I have your name? ')
+    print('Hello,', name)
 
 
 def start_game(game, RULES, max_point=3) -> None:
     '''Accepts a function from the selected game module.
     Plays the game and ends the game'''
 
-    brain_games.scripts.welcome_mass.main()
+    welcome_user()
     print(RULES)
     count_correct_answer = 0
     while count_correct_answer < max_point:
@@ -21,8 +26,8 @@ def start_game(game, RULES, max_point=3) -> None:
         else:
             print(f"'{user_answer}' is wrong answer ;(."
                      f"Correct answer was '{answer}'.\n"
-                     f"Let's try again, {brain_games.cli.name}!")
+                     f"Let's try again, {name}!")
             exit()
 
-    print(f"Congratulations, {brain_games.cli.name}!")
+    print(f"Congratulations, {name}!")
     exit()
