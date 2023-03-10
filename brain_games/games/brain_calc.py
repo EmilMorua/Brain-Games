@@ -7,7 +7,8 @@ RULE = 'What is the result of the expression?'
 
 
 def get_sums(num1: int, num2: int, operator: str) -> int:
-    """Accepts 2 numbers, an operator to make a mathematical example, returns the answer to this expression"""
+    """Accepts 2 numbers, an operator to make a mathematical example,
+    returns the answer to this expression"""
 
     if operator == '+':
         return num1 + num2

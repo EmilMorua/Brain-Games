@@ -25,8 +25,8 @@ def start_game(game, max_point=3) -> None:
             continue
         else:
             print(f"'{user_answer}' is wrong answer ;(."
-                     f"Correct answer was '{answer}'.\n"
-                     f"Let's try again, {name}!")
+                  f"Correct answer was '{answer}'.\n"
+                  f"Let's try again, {name}!")
             exit()
 
     print(f"Congratulations, {name}!")
