@@ -1,10 +1,9 @@
 from brain_games.games_script import start_game
-from brain_games.games.brain_prime import start_prime
-from brain_games.games.brain_prime import RULES
+from brain_games.games import brain_prime
 
 
 def main():
-    start_game(start_prime, RULES)
+    start_game(brain_prime)
 
 
 if __name__ == '__main__':

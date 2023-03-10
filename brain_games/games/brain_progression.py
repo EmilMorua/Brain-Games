@@ -7,7 +7,7 @@ STEP_MIN = 1
 STEP_MAX = 6
 MISSING_INDEX_MIN = 0
 MISSING_INDEX_MAX = 9
-RULES = 'What number is missing in the progression?'
+RULE = 'What number is missing in the progression?'
 
 
 def get_progression_with_a_pass(progression: list, missing_index: int) -> tuple:
@@ -21,7 +21,7 @@ def get_progression_with_a_pass(progression: list, missing_index: int) -> tuple:
     return progression, missing_number
 
 
-def start_progression() -> tuple:
+def game_launch() -> tuple:
     """Returns 2 values - a sequence of 10 numbers with a missing number and a missing number"""
 
     first_num = random.randint(FIRST_NUM_MIN, FIRST_NUM_MAX)

@@ -3,7 +3,7 @@ import random
 
 MIN = 0
 MAX = 101
-RULES = 'What is the result of the expression?'
+RULE = 'What is the result of the expression?'
 
 
 def get_sums(num1: int, num2: int, operator: str) -> int:
@@ -17,7 +17,7 @@ def get_sums(num1: int, num2: int, operator: str) -> int:
         return num1 * num2
 
 
-def start_calc() -> tuple:
+def game_launch() -> tuple:
     """Returns 2 values - a random mathematical example and the answer to it"""
 
     num1 = random.randint(MIN, MAX)

@@ -1,10 +1,9 @@
 from brain_games.games_script import start_game
-from brain_games.games.brain_even import start_even
-from brain_games.games.brain_even import RULES
+from brain_games.games import brain_even
 
 
 def main():
-    start_game(start_even, RULES)
+    start_game(brain_even)
 
 
 if __name__ == '__main__':

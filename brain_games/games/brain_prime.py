@@ -3,7 +3,7 @@ import random
 
 MIN = 0
 MAX = 101
-RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num: int) -> str:
@@ -17,7 +17,7 @@ def is_prime(num: int) -> str:
         return 'yes'
 
 
-def start_prime() -> tuple:
+def game_launch() -> tuple:
     """Returns 2 values - a random number and whether it is a prime number"""
 
     num = random.randint(MIN, MAX)

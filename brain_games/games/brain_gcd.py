@@ -3,7 +3,7 @@ import random
 
 MIN = 0
 MAX = 101
-RULES = 'Find the greatest common divisor of given numbers.'
+RULE = 'Find the greatest common divisor of given numbers.'
 
 
 def get_divisor(num1: int, num2: int) -> int:
@@ -14,7 +14,7 @@ def get_divisor(num1: int, num2: int) -> int:
             return divisor
 
 
-def start_gcd() -> tuple:
+def game_launch() -> tuple:
     """Returns 2 numbers and their greatest common divisor"""
 
     num1 = random.randint(MIN, MAX)

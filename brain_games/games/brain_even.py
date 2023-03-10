@@ -3,7 +3,7 @@ import random
 
 MIN = 0
 MAX = 101
-RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(num: int) -> bool:
@@ -14,7 +14,7 @@ def is_even(num: int) -> bool:
     return False
 
 
-def start_even() -> tuple:
+def game_launch() -> tuple:
     """Returns 2 values - a random number and whether it is an even number"""
 
     num = random.randint(MIN, MAX)
