@@ -13,8 +13,8 @@ def is_prime(num: int) -> str:
         return 'no'
     for divisor in range(2, num - 1):
         if num % divisor == 0:
-            return 'no'
-        return 'yes'
+            return False
+        return True
 
 
 def game_launch() -> tuple:
@@ -22,4 +22,6 @@ def game_launch() -> tuple:
 
     num = random.randint(MIN, MAX)
     answer = is_prime(num)
-    return num, answer
+    if answer:
+        return num, 'yes'
+    return num, 'no'
