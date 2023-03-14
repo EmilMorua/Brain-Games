@@ -6,15 +6,15 @@ MAX = 101
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_prime(num: int) -> str:
+def is_prime(num: int) -> bool:
     """Accepts a number and returns whether it is a prime number"""
 
-    if num < 3:
-        return 'no'
-    for divisor in range(2, num - 1):
+    if num < 4:
+        return True
+    for divisor in range(2, num):
         if num % divisor == 0:
             return False
-        return True
+    return True
 
 
 def game_launch() -> tuple:
