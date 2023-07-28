@@ -16,6 +16,15 @@ BrainGames is a series of five console logic games.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Used technologies:
+
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white" />
+  <img alt="flake8" src="https://img.shields.io/badge/-flake8-FFA500?logo=python&logoColor=white" />
+  <img alt="Poetry" src="https://img.shields.io/badge/-Poetry-347EFB?logo=python&logoColor=white" />
+  <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+</p>
+
 
 ### Installation
 
@@ -24,7 +33,15 @@ BrainGames is a series of five console logic games.
    ```sh
    git clone https://github.com/EmilMorua/python-project-49.git
    ```
-2. Enter the name of the game
+2. Installing dependencies
+   ```sh
+   make install
+   ```
+3. Building a package
+   ```sh
+   make build
+   ```
+4. Enter the name of the game
    ```sh
    brain-even
    ```
@@ -37,15 +54,15 @@ BrainGames is a series of five console logic games.
 
 Click on the name of the game to see a demonstration of how it works
 
-[brain-even](https://asciinema.org/a/5MOUZh6GwmUCbYrXvlqLRdflA)
+[Brain-even](https://asciinema.org/a/5MOUZh6GwmUCbYrXvlqLRdflA)
 
-[brain-calc](https://asciinema.org/a/VeBcVE8sAYJAjatwcPxynCy12)
+[Brain-calc](https://asciinema.org/a/VeBcVE8sAYJAjatwcPxynCy12)
 
-[brain-gcd](https://asciinema.org/a/LJScsznpA6bQyveCHJ6pRsgQh)
+[Brain-gcd](https://asciinema.org/a/LJScsznpA6bQyveCHJ6pRsgQh)
 
-[brain-progression](https://asciinema.org/a/MkMA5dmvQRLv2kIseW0n22BoW)
+[Brain-progression](https://asciinema.org/a/MkMA5dmvQRLv2kIseW0n22BoW)
 
-[brain-prime](https://asciinema.org/a/Ub1DFnxBwFv50TMDU6vlfUITE)
+[Brain-prime](https://asciinema.org/a/Ub1DFnxBwFv50TMDU6vlfUITE)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
