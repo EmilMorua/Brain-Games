@@ -25,8 +25,9 @@ BrainGames is a series of five console logic games.
   <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
 </p>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Installation
+## Installation:
 
 
 1. Clone the repo
